@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Desafio Criptografia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Desafio Criptografia</h1>
+        <form>
+            <label>
+                <input type="radio" name="operacao" value="criptografar" checked> Criptografar
+            </label>
+            <label>
+                <input type="radio" name="operacao" value="descriptografar"> Descriptografar
+            </label>
+            <br><br>
+            <label>
+                Texto:
+                <br>
+                <textarea id="texto" name="texto"></textarea>
+            </label>
+            <br><br>
+            <button type="submit">Enviar</button>
+        </form>
+        <br><br>
+        <label>
+            Resultado:
+            <br>
+            <textarea id="resultado" name="resultado" readonly></textarea>
+        </label>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
